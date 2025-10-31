@@ -1,0 +1,203 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+.logo {
+  float: left;
+  font-size: 24px;
+  color: #c56e04;
+  text-decoration: none;
+}
+.site-nav {
+  float: right;
+}
+.site-nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+.site-nav a:hover {
+  color: #f8f4f4;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.hero {
+  background: url("Images/WhatsApp\ Image\ 2025-10-30\ at\ 20.41.21_b568b3ad.jpg") no-repeat center center/cover;
+  color: #f0f5f7;
+  text-align: center;
+  padding: 180px 0;
+}
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.hero .btn {
+  background: #e29f8b;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.hero .btn:hover {
+  background: #d0886f;
+}
+
+
+.featured-section {
+  padding: 60px 0;
+  text-align: center;
+}
+.featured-section h3 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.card h4 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+.card p {
+  margin-top: 10px;
+  color: #666;
+}
+
+
+.why-us {
+  background: #f9f9f9;
+  padding: 60px 0;
+}
+.why-us h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.features {
+  list-style: none;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.features li {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.features li strong {
+  color: #e29f8b;
+}
+
+
+.testimonials {
+  padding: 60px 0;
+  text-align: center;
+}
+.testimonials h3 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.testimonials blockquote {
+  font-style: italic;
+  color: #555;
+  max-width: 700px;
+}
+
+
+.contact-section,
+.about-section {
+  padding: 60px 0;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form .btn {
+  display: inline-block;
+  background: #e29f8b;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-info p {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+.site-footer {
+  background: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+.site-footer p {
+  margin-bottom: 10px;
+}
+.footer-nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.footer-nav a:hover {
+  color: #fff;
+}
